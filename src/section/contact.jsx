@@ -36,7 +36,7 @@ export const Contact = () => {
       <div className="w-full max-w-xl bg-gray-800/80 backdrop-blur-md rounded-2xl p-8 shadow-lg">
         {/* Catchy headline */}
         <h6 className="text-center text-xl text-white font-semibold mb-2">
-          Need a Web & App Developer?
+          Need a Developer?
         </h6>
         <h2 className="text-4xl font-bold text-center mb-8">Contact Me</h2>
 
@@ -72,40 +72,67 @@ export const Contact = () => {
         </form>
         <div className="flex flex-row gap-4 mt-5 text-white w-full justify-center">
   {/* Phone */}
-  <Phone
-    className="cursor-pointer hover:text-indigo-400"
-    onClick={() => window.open("tel:09062081535")}
-  />
+<div className="flex gap-4">
+  {/* Phone */}
+  <div 
+    className="relative group cursor-pointer"
+    onClick={() => window.open("tel:+639062081535")}
+  >
+    <Phone className="hover:text-indigo-400" />
+    <div className="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 
+                    hidden group-hover:block bg-white text-black text-sm p-2 rounded shadow-lg z-10">
+      +63906-208-1535
+    </div>
+  </div>
 
   {/* Email */}
-  <Mail
-    className="cursor-pointer hover:text-indigo-400"
+  <div 
+    className="relative group cursor-pointer"
     onClick={() => window.open("mailto:brentixorgeix@gmail.com")}
-  />
+  >
+    <Mail className="hover:text-indigo-400" />
+    <div className="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 
+                    hidden group-hover:block bg-white text-black text-sm p-2 rounded shadow-lg z-10">
+      brentixorgeix@gmail.com
+    </div>
+  </div>
 
   {/* Telegram */}
-  <Send
-    className="cursor-pointer hover:text-indigo-400"
-    onClick={() => window.open("https://t.me/09062081535")}
-  />
+  <div 
+    className="relative group cursor-pointer"
+    onClick={() => window.open("https://t.me/BrentImma", "_blank")}
+  >
+    <Send className="hover:text-indigo-400" />
+    <div className="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 
+                    hidden group-hover:block bg-white text-black text-sm p-2 rounded shadow-lg z-10">
+      https://t.me/BrentImma
+    </div>
+  </div>
 
   {/* LinkedIn */}
-  <SiLinkedin
-    size={24}
-    className="cursor-pointer hover:text-indigo-400"
-    onClick={() =>
-      window.open("https://www.linkedin.com/in/orgen-brent-694342329/", "_blank")
-    }
-  />
+  <div 
+    className="relative group cursor-pointer"
+    onClick={() => window.open("https://www.linkedin.com/in/orgen-brent-694342329/", "_blank")}
+  >
+    <SiLinkedin size={24} className="hover:text-indigo-400" />
+    <div className="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 
+                    hidden group-hover:block bg-white text-black text-sm p-2 rounded shadow-lg z-10">
+      linkedin.com/in/orgen-brent-694342329
+    </div>
+  </div>
 
   {/* GitHub */}
-  <SiGithub
-    size={28}
-    className="cursor-pointer hover:text-indigo-400"
-    onClick={() =>
-      window.open("https://github.com/Chestycraft", "_blank")
-    }
-  />
+  <div 
+    className="relative group cursor-pointer"
+    onClick={() => window.open("https://github.com/brentjefferson", "_blank")}
+  >
+    <SiGithub size={28} className="hover:text-indigo-400" />
+    <div className="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 
+                    hidden group-hover:block bg-white text-black text-sm p-2 rounded shadow-lg z-10">
+      github.com/brentjefferson
+    </div>
+  </div>
+</div>
 </div>
 
       </div>

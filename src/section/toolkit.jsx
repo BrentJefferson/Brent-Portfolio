@@ -20,7 +20,7 @@ export const ToolKit = () => {
     ,
     {
       name: "React",
-      src: "/images/react_logo.png",
+      src: "/images/react.png",
 
     },
     {
@@ -42,6 +42,38 @@ export const ToolKit = () => {
     {
       name: "FastAPI",
       src: "/images/fastapi.png"
+    },
+    {
+      name: "Docker",
+      src: "/images/docker.png"
+    },
+    {
+      name: "n8n",
+      src: "/images/n8n.png"
+    },
+    {
+      name: "MongoDB",
+      src: "/images/mongo.png"
+    },
+    {
+      name: "Git",
+      src: "/images/git.png"
+    },
+    {
+      name: "Playwright",
+      src: "/images/playwright.png"
+    },
+    {
+      name: "PostgreSQL",
+      src: "/images/postgre.png"
+    },
+    {
+      name: "Ubuntu",
+      src: "/images/ubuntu.png"
+    },
+    {
+      name: "node",
+      src: "/images/node.png"
     }
   ];
 
