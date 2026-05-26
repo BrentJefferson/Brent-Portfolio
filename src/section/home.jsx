@@ -44,10 +44,9 @@ export const Home = () => {
 
       <a
         href="#projects"
-        className="group border-0 flex items-center gap-2 px-8 py-4 lg:px-10 lg:py-5 lg:text-lg rounded-full bg-white/10 hover:bg-white/20 text-white font-semibold tracking-wide transition-all duration-300 shadow-lg hover:shadow-white/10"
+        className="border-0 px-16 py-6 lg:px-24 lg:py-7 text-base lg:text-xl rounded-xl font-light tracking-wider text-white cta-border"
       >
         See my work
-        <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
       </a>
     </div>
   );

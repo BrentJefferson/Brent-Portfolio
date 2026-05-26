@@ -26,6 +26,34 @@ html {
   transform-origin: bottom center;
 }
 
+@keyframes borderSpin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+.cta-border {
+  padding: 1.5rem 4rem;
+  border: 1px solid #8FD0E366;
+  border-bottom: 1px solid #8FD0E366;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  transition: border-color 0.3s ease, background 0.3s ease;
+}
+
+.cta-border:hover {
+  border-color: #8FD0E3;
+  border-bottom-color: #8FD0E3;
+  background: #8FD0E311;
+  color: white;
+}
+
+@media (min-width: 1024px) {
+  .cta-border {
+    padding: 1.75rem 6rem;
+    font-size: 1.25rem;
+  }
+}
+
 @keyframes jumponce {
   0%, 100%  { transform: translateY(0); }
   10%       { transform: translateY(-12px); }
