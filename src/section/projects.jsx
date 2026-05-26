@@ -4,6 +4,14 @@ export const Projects = () => {
 
   const projects = [
     {
+  link: "https://elitecraftv2.vercel.app/",
+  name: "EliteCraft Education Corp Website",
+  description: "Built a full marketing site for a TESDA & FOA-accredited fiber optics training center in Cebu. Features a course catalog, live schedule, testimonials, and a custom admin dashboard for managing courses, sessions, and event photos.",
+  imagesrc: "/images/project/elitecraft.png",
+  stack: ["Next.js", "React", "TypeScript"]
+}
+    ,
+    {
       link: "https://magymbio-web.vercel.app/",
       name: "Magymbo Gym Website",
       description: "Built a full website for a gym client — members can check their membership status, and the owner manages everything through a custom admin dashboard.",
