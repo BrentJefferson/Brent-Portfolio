@@ -41,7 +41,7 @@ export const ToolKit = () => {
   let globalIndex = 0;
 
   return (
-    <div id="toolkit" className="w-full flex flex-col items-center mb-20 mt-10 lg:px-[20%] px-[5%]">
+    <div id="toolkit" className="w-full flex flex-col items-center py-20 lg:py-28 lg:px-[20%] px-[5%]">
       <h1 className="text-4xl lg:text-5xl mb-10"><span className="inline-block spin-t">T</span>oolkit</h1>
 
       <div className="w-full flex flex-col gap-10 lg:gap-14 items-center text-center">

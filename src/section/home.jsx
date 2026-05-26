@@ -1,6 +1,6 @@
 export const Home = () => {
   return (
-    <div className="px-[10%] py-20 w-full flex flex-col items-center text-center" id="about">
+    <div className="px-[10%] py-24 lg:py-32 w-full flex flex-col items-center text-center" id="about">
 
       {/* Mobile: photo then name below / PC: Brent | photo | Orgen row */}
 

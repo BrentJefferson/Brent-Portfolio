@@ -42,8 +42,8 @@ export const Projects = () => {
   ];
 
   return (
-    <>
-      <div id="projects" className="w-full flex flex-col items-center mb-5 mt-10">
+    <div id="projects" className="w-full py-20 lg:py-28">
+      <div className="w-full flex flex-col items-center mb-10">
         <h1 className="text-4xl"><span className="inline-block jump-p">P</span>rojects</h1>
       </div>
       {projects.map((item, index) => (
@@ -51,6 +51,6 @@ export const Projects = () => {
           <ProjectCard projects={item} />
         </div>
       ))}
-    </>
+    </div>
   );
 };
