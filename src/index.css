@@ -4,6 +4,15 @@ html {
   scroll-behavior: smooth;
 }
 
+@keyframes floatpill {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-5px); }
+}
+
+.toolkit-pill {
+  animation: floatpill 3s ease-in-out infinite;
+}
+
 .top_indent{
     margin-top: 50px;
 }
