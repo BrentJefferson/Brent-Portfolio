@@ -2,25 +2,33 @@ export const Home = () => {
   return (
     <div className="px-[10%] py-20 w-full flex flex-col items-center text-center" id="about">
 
-      {/* Brent | photo | Orgen row on all screen sizes */}
-      <div className="flex flex-row items-center gap-4 lg:gap-8 mb-4">
+      {/* Mobile: photo then name below / PC: Brent | photo | Orgen row */}
 
-        <h1 className="text-[130%] lg:text-[380%]">
-          <span className="whitespace-nowrap">
-            <span className="inline-block squish-letter">B</span>rent
-          </span>
+      {/* PC row */}
+      <div className="hidden lg:flex flex-row items-center gap-8 mb-4">
+        <h1 className="text-[380%]">
+          <span className="whitespace-nowrap"><span className="inline-block squish-letter">B</span>rent</span>
         </h1>
-
         <img
           src="/images/profile_pic.webp"
           alt="Brent Orgen"
-          className="w-[120px] h-[120px] lg:w-[240px] lg:h-[240px] rounded-full object-cover flex-shrink-0"
+          className="w-[240px] h-[240px] rounded-full object-cover"
         />
+        <h1 className="text-[380%]">
+          <span className="whitespace-nowrap"><span className="inline-block squish-letter" style={{ animationDelay: '0.4s' }}>O</span>rgen</span>
+        </h1>
+      </div>
 
-        <h1 className="text-[130%] lg:text-[380%]">
-          <span className="whitespace-nowrap">
-            <span className="inline-block squish-letter" style={{ animationDelay: '0.4s' }}>O</span>rgen
-          </span>
+      {/* Mobile: photo on top, name on one line below */}
+      <div className="flex lg:hidden flex-col items-center gap-4 mb-4">
+        <img
+          src="/images/profile_pic.webp"
+          alt="Brent Orgen"
+          className="w-[180px] h-[180px] rounded-full object-cover"
+        />
+        <h1 className="text-3xl whitespace-nowrap">
+          <span className="inline-block squish-letter">B</span>rent{' '}
+          <span className="inline-block squish-letter" style={{ animationDelay: '0.4s' }}>O</span>rgen
         </h1>
       </div>
 
