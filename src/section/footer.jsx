@@ -11,8 +11,8 @@ export const Footer = () => {
         {/* About / Description */}
         <div className="flex-1 text-center lg:text-left text-sm lg:text-base">
           <p>
-            I'm a passionate developer, I also like making AI agents. I have no job experience yet but I'm looking for opportunities to start my career.
-            I love creating beautiful and functional applications that make a difference. I'd love to hear from you if you're interested in working together.
+            I build web apps and automation tools — and I'm open to freelance projects and full-time opportunities.
+            If you have something you want to build, I'd like to hear about it.
           </p>
         </div>
 

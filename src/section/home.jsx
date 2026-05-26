@@ -1,22 +1,38 @@
+export const Home = () => {
+  return (
+    <div className="px-[10%] py-20 w-full flex flex-col items-center text-center" id="about">
+      <img
+        src="/images/profile_pic.webp"
+        alt="Brent Orgen"
+        className="w-[180px] h-[180px] rounded-full mb-8 object-cover"
+      />
 
-export const Home = () =>{
+      <h1 className="text-[200%] lg:text-[280%] mb-2">
+        Brent Orgen
+      </h1>
 
+      <p className="text-primary text-lg lg:text-xl mb-6 tracking-wide">
+        Full-Stack Developer &amp; Automation Builder
+      </p>
 
+      <p className="max-w-xl text-sm lg:text-base text-gray-300 mb-8 leading-relaxed">
+        I build web apps and automation systems — from client-facing websites to
+        AI-powered workflow tools. I work independently or with a team and care
+        about shipping things that actually work.
+      </p>
 
-    return(
-        <>
-        <div className="px-[10%] py-10 w-full flex flex-col items-center lg:mb-10 md:mb-5" id="about">
-            {/**photo container*/}
-                <img 
-  src="/images/profile_pic.webp" 
-  alt="My Profile Picture"
-  className="w-full min-w-[200px] max-w-[200px] aspect-square rounded-full mb-5 object-cover"
-/>
-            <div className="p-5 text-center lg:text-2xl md:text-2xl text-head">
-                <h1 className="text-gray-900 non-darktext text-[250%]">Developer</h1>
-                <br></br> Hi, I'm Brent Orgen, Analytical and motivated developer with experience in building websites and custom automation system using python and n8n. familiar with software development concepts, web-based systems, automation, and basic AWS(EC2). Self-driven individual with strong problem-solving skills, adaptability, and a passion for tech. Ready to learn, grow, and work independently or with a team.
-            </div>
-        </div>
-        </>
-    )
-}
+      <div className="flex flex-col sm:flex-row gap-3 text-sm mb-10">
+        <span className="px-4 py-2 rounded-full bg-white/10 text-white">React &amp; Next.js</span>
+        <span className="px-4 py-2 rounded-full bg-white/10 text-white">Python &amp; FastAPI</span>
+        <span className="px-4 py-2 rounded-full bg-white/10 text-white">n8n &amp; LangGraph</span>
+      </div>
+
+      <a
+        href="#projects"
+        className="border-0 px-6 py-3 rounded-full bg-primary/20 hover:bg-primary/40 text-white text-sm transition-all"
+      >
+        See my work ↓
+      </a>
+    </div>
+  );
+};

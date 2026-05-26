@@ -1,10 +1,18 @@
-import { Rebuilding } from "./components/rebuilding";
+import { Home } from "./section/home";
+import { Projects } from "./section/projects";
+import { ToolKit } from "./section/toolkit";
+import { Contact } from './section/contact';
+import { Footer } from "./section/footer";
 
 function App() {
   return (
     <>
       <div className="flex flex-col w-full">
-        <Rebuilding />
+        <Home />
+        <ToolKit />
+        <Projects />
+        <Contact />
+        <Footer />
       </div>
     </>
   );
