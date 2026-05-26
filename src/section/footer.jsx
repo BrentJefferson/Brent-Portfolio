@@ -11,7 +11,7 @@ export const Footer = () => {
         {/* About / Description */}
         <div className="flex-1 text-center lg:text-left text-sm lg:text-base">
           <p>
-            I build web apps and automation tools — and I'm open to freelance projects and full-time opportunities.
+            I build web apps and automation tools. Open to freelance projects and full-time opportunities.
             If you have something you want to build, I'd like to hear about it.
           </p>
         </div>

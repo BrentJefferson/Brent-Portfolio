@@ -38,7 +38,7 @@ export const Home = () => {
       </p>
 
       <p className="max-w-xl lg:max-w-2xl text-sm lg:text-lg text-gray-300 mb-8 leading-relaxed">
-        I build web apps and automation systems — from client-facing websites to
+        I build web apps and automation systems, from client-facing websites to
         AI-powered workflow tools. I work independently or with a team and care
         about shipping things that actually work.
       </p>
