@@ -41,12 +41,12 @@ export const ToolKit = () => {
   let globalIndex = 0;
 
   return (
-    <div id="toolkit" className="w-full flex flex-col items-center mb-20 mt-10 px-[10%]">
+    <div id="toolkit" className="w-full flex flex-col items-center mb-20 mt-10 lg:px-[20%] px-[5%]">
       <h1 className="text-4xl mb-10"><span className="inline-block spin-t">T</span>oolkit</h1>
 
       <div className="w-full flex flex-col gap-10 items-center text-center">
         {groups.map((group) => (
-          <div key={group.label} className="w-full max-w-xl">
+          <div key={group.label} className="w-full">
             <p className="text-xs uppercase tracking-widest text-gray-400 mb-4">{group.label}</p>
             <div className="flex flex-row flex-wrap gap-3 justify-center">
               {group.items.map((item) => {
