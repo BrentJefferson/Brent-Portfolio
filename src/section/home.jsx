@@ -2,36 +2,27 @@ export const Home = () => {
   return (
     <div className="px-[10%] py-20 w-full flex flex-col items-center text-center" id="about">
 
-      {/* Mobile: photo then name stacked / PC: Brent | photo | Orgen in a row */}
-      <div className="flex flex-col items-center lg:flex-row lg:items-center lg:gap-8 mb-4">
+      {/* Brent | photo | Orgen row on all screen sizes */}
+      <div className="flex flex-row items-center gap-4 lg:gap-8 mb-4">
 
-        {/* "Brent" — left of photo on PC, hidden on mobile */}
-        <h1 className="hidden lg:block text-[380%]">
+        <h1 className="text-[130%] lg:text-[380%]">
           <span className="whitespace-nowrap">
             <span className="inline-block squish-letter">B</span>rent
           </span>
         </h1>
 
-        {/* Profile photo */}
         <img
           src="/images/profile_pic.webp"
           alt="Brent Orgen"
-          className="w-[180px] h-[180px] lg:w-[240px] lg:h-[240px] rounded-full object-cover"
+          className="w-[120px] h-[120px] lg:w-[240px] lg:h-[240px] rounded-full object-cover flex-shrink-0"
         />
 
-        {/* "Orgen" — right of photo on PC, hidden on mobile */}
-        <h1 className="hidden lg:block text-[380%]">
+        <h1 className="text-[130%] lg:text-[380%]">
           <span className="whitespace-nowrap">
             <span className="inline-block squish-letter" style={{ animationDelay: '0.4s' }}>O</span>rgen
           </span>
         </h1>
       </div>
-
-      {/* Mobile-only name */}
-      <h1 className="lg:hidden text-[200%] mb-2">
-        <span className="whitespace-nowrap"><span className="inline-block squish-letter">B</span>rent</span>{' '}
-        <span className="whitespace-nowrap"><span className="inline-block squish-letter" style={{ animationDelay: '0.4s' }}>O</span>rgen</span>
-      </h1>
 
       <p className="text-primary text-lg lg:text-2xl mb-6 tracking-wide">
         Full-Stack Developer &amp; Automation Builder
