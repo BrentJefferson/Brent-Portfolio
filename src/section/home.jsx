@@ -42,17 +42,12 @@ export const Home = () => {
         about shipping things that actually work.
       </p>
 
-      <div className="flex flex-col sm:flex-row gap-3 text-sm lg:text-base mb-10">
-        <span className="px-4 py-2 lg:px-6 lg:py-3 rounded-full bg-white/10 text-white">React &amp; Next.js</span>
-        <span className="px-4 py-2 lg:px-6 lg:py-3 rounded-full bg-white/10 text-white">Python &amp; FastAPI</span>
-        <span className="px-4 py-2 lg:px-6 lg:py-3 rounded-full bg-white/10 text-white">n8n &amp; LangGraph</span>
-      </div>
-
       <a
         href="#projects"
-        className="border-0 px-6 py-3 lg:px-8 lg:py-4 lg:text-base rounded-full bg-primary/20 hover:bg-primary/40 text-white text-sm transition-all"
+        className="group border-0 flex items-center gap-2 px-8 py-4 lg:px-10 lg:py-5 lg:text-lg rounded-full bg-white/10 hover:bg-white/20 text-white font-semibold tracking-wide transition-all duration-300 shadow-lg hover:shadow-white/10"
       >
-        See my work ↓
+        See my work
+        <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
       </a>
     </div>
   );
