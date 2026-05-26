@@ -4,6 +4,19 @@ html {
   scroll-behavior: smooth;
 }
 
+@keyframes jumponce {
+  0%, 100%  { transform: translateY(0); }
+  10%       { transform: translateY(-12px); }
+  20%       { transform: translateY(0); }
+  28%       { transform: translateY(-5px); }
+  36%       { transform: translateY(0); }
+}
+
+.jump-p {
+  animation: jumponce 2s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
 @keyframes floatpill {
   0%, 100% { transform: translateY(0px); }
   50%       { transform: translateY(-5px); }

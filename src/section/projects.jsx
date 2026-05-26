@@ -44,7 +44,7 @@ export const Projects = () => {
   return (
     <>
       <div id="projects" className="w-full flex flex-col items-center mb-5 mt-10">
-        <h1 className="text-4xl">Projects</h1>
+        <h1 className="text-4xl"><span className="inline-block jump-p">P</span>rojects</h1>
       </div>
       {projects.map((item, index) => (
         <div key={index}>
