@@ -8,7 +8,8 @@ export const Home = () => {
       />
 
       <h1 className="text-[200%] lg:text-[280%] mb-2">
-        Brent Orgen
+        <span className="whitespace-nowrap"><span className="inline-block squish-letter">B</span>rent</span>{' '}
+        <span className="whitespace-nowrap"><span className="inline-block squish-letter" style={{ animationDelay: '0.4s' }}>O</span>rgen</span>
       </h1>
 
       <p className="text-primary text-lg lg:text-xl mb-6 tracking-wide">

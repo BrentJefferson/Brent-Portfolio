@@ -42,7 +42,7 @@ export const ToolKit = () => {
 
   return (
     <div id="toolkit" className="w-full flex flex-col items-center mb-20 mt-10 px-[10%]">
-      <h1 className="text-4xl mb-10">Toolkit</h1>
+      <h1 className="text-4xl mb-10"><span className="inline-block spin-t">T</span>oolkit</h1>
 
       <div className="w-full flex flex-col gap-10 items-center text-center">
         {groups.map((group) => (

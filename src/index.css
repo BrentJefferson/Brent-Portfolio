@@ -4,6 +4,28 @@ html {
   scroll-behavior: smooth;
 }
 
+@keyframes spint {
+  0%, 8%    { transform: rotate(0deg); }
+  18%       { transform: rotate(360deg); }
+  100%      { transform: rotate(360deg); }
+}
+
+.spin-t {
+  animation: spint 2s ease-in-out infinite;
+}
+
+@keyframes squish {
+  0%, 100%  { transform: scaleX(1)   scaleY(1); }
+  10%       { transform: scaleX(1.5) scaleY(0.55); }
+  20%       { transform: scaleX(0.85) scaleY(1.2); }
+  30%       { transform: scaleX(1)   scaleY(1); }
+}
+
+.squish-letter {
+  animation: squish 3s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
 @keyframes jumponce {
   0%, 100%  { transform: translateY(0); }
   10%       { transform: translateY(-12px); }
