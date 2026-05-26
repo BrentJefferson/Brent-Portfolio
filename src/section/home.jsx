@@ -1,6 +1,6 @@
 export const Home = () => {
   return (
-    <div className="px-[10%] py-24 lg:py-32 w-full flex flex-col items-center text-center" id="about">
+    <div className="px-[10%] pt-12 pb-24 lg:pt-16 lg:pb-32 w-full flex flex-col items-center text-center" id="about">
 
       {/* Mobile: photo then name below / PC: Brent | photo | Orgen row */}
 
@@ -42,12 +42,20 @@ export const Home = () => {
         about shipping things that actually work.
       </p>
 
-      <a
-        href="#projects"
-        className="border-0 px-16 py-6 lg:px-24 lg:py-7 text-base lg:text-xl rounded-xl font-light tracking-wider text-white cta-border"
-      >
-        See my work
-      </a>
+      <div className="flex flex-col sm:flex-row gap-4">
+        <a
+          href="#projects"
+          className="border-0 text-base lg:text-xl rounded-xl font-light tracking-wider text-white cta-border"
+        >
+          See my work
+        </a>
+        <a
+          href="#contact"
+          className="border-0 text-base lg:text-xl rounded-xl font-light tracking-wider text-white cta-border"
+        >
+          Contact me
+        </a>
+      </div>
     </div>
   );
 };
