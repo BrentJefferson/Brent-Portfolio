@@ -12,13 +12,6 @@ export const Projects = () => {
 }
     ,
     {
-      link: "https://magymbio-web.vercel.app/",
-      name: "Magymbo Gym Website",
-      description: "Built a full website for a gym client. Members can check their membership status, and the owner manages everything through a custom admin dashboard.",
-      imagesrc: "/images/project/Magymbo.JPG",
-      stack: ["Next.js", "React", "Supabase"]
-    },
-    {
       link: "https://a-p-panels.vercel.app",
       name: "A.P Panels Portfolio",
       description: "Designed and delivered a portfolio site for a panel manufacturing company. Clean, professional, and built to turn visitors into leads.",
